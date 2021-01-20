@@ -1,0 +1,11 @@
+html {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #E0E0E0;
+}
+
+.item {
+    background-color: #8BC34A;
+    padding: 20px;
+    border: 4px dashed #212121;
+    margin: 20px;
+}
