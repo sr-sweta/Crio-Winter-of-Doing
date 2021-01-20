@@ -1,0 +1,36 @@
+
+body {
+
+    /* Set the font of text displayed */
+  
+    font-family: Verdana;
+  
+    /* Set the background color */
+  
+    background-color: lightgrey;
+  
+  }
+  
+  
+  h1 {
+  
+    /* Set text color */
+  
+    color: white;
+  
+  }
+  
+  
+  h3 {
+  
+    color: white;
+  
+  }
+  
+  
+  div {
+  
+    background-color: #999999;
+  
+  }
+  
