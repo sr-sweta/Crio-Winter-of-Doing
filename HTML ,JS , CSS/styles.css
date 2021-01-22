@@ -1,0 +1,23 @@
+body{
+    background-color: darkgreen;
+    color: darkseagreen;
+}
+h1{
+    margin-left: 6%;
+}
+.p1{
+    background-color: darkslategray;
+    padding: 14px;
+    margin: 40px;
+    width: 50%;
+    border-width: 5px;
+    border-radius: 10px;
+    border-color: red;
+}
+.p2{
+    background-color: deepskyblue;
+    color: indigo;
+    padding: 14px;
+    margin: 40px;
+    width: 50%;
+}

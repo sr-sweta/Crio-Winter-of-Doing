@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        h1{
+            position: fixed;
+            /* top = 2px; */
+            color: orangered;
+            /* margin-left: 10px; */
+            bottom: 2px;
+            right: 15px;
+            border: 2px dashed black;
+        }
+        h2{
+            position: fixed;
+            margin: 50px;
+            color: chartreuse;
+            border: 2px solid cyan ;
+        }
+        .container{
+            background-color: rgb(138, 146, 146);
+            border: 3px solid red;
+            height: 1000px;
+            display: flex;
+            flex-wrap: wrap;
+            /* justify-content: center; */
+            justify-content: space-evenly;
+            align-items: center;
+            /* align-items: stretch; */
+        }
+        .tile{
+            color: whitesmoke;
+            background-color: orange;
+            padding: 3px;
+            height: 100px;
+            width: 300px;
+            border: 5px solid rgb(100, 12, 0);
+        }
+    </style>
+    <title>FLEX</title>
+</head>
+
+<body>
+    <h1>ENJOYING CSS LEARNINGS</h1>
+    <h2>DESIGN USING CSS</h2>
+    <div class="container">
+        <div class="tile" id="item1">First Box</div>
+        <div class="tile" id="item2">Second Box</div>
+        <div class="tile" id="item3">Third Box</div>
+        <div class="tile" id="item4">Fourth Box</div>
+        <div class="tile" id="item5">Fifth Box</div>
+    </div>
+</body>
+
+</html>
